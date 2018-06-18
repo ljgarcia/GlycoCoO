@@ -32,7 +32,7 @@
 <Protein/P1>
         a glycan:Glycoprotein ;
         rdfs:label "a glycocoprotein"^^xsd:string ;
-        rdfs:seeAlso <http://identifiers.org/uniprot/{uniprot_id}> ;
+        rdfs:seeAlso <http://identifiers.org/uniprot:{uniprot_id}> ;
         gco:glycosylated_at <Protein/P1/R> .
         
 <Protein/P1/R>
@@ -71,7 +71,7 @@
 <Saccharide/S1>
         a glycan:Saccharide ;
         rdfs:label "saccharide is GTC acc#"^^xsd:string ;
-        rdfs:seeAlso <http://identifiers.org/glytoucan/{GlyTouCan_id}> ;
+        rdfs:seeAlso <http://identifiers.org/glytoucan:{GlyTouCan_id}> ;
         foaf:primaryTopic <GlyTouCan/G1> .
 
 <SetItem/1>
